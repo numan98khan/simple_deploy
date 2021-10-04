@@ -1,0 +1,16 @@
+{
+  "connectionStrings": {
+    "ado.net": "Server=postdbtest.postgres.database.azure.com;Database=maindb;Port=5432;User Id=numan98khan@postdbtest;Password=NAUman!@#123;",
+    "jdbc": "jdbc:postgresql://postdbtest.postgres.database.azure.com:5432/maindb?user=numan98khan@postdbtest&password=NAUman!@#123",
+    "jdbc Spring": "spring.datasource.url=jdbc:postgresql://postdbtest.postgres.database.azure.com:5432/maindb  spring.datasource.username=numan98khan@postdbtest  spring.datasource.password=NAUman!@#123",
+    "node.js": "var client = new pg.Client('postgres://numan98khan@postdbtest:NAUman!@#123@postdbtest.postgres.database.azure.com:5432/maindb');",
+    "php": "host=postdbtest.postgres.database.azure.com port=5432 dbname=maindb user=numan98khan@postdbtest password=NAUman!@#123",
+    "psql_cmd": "psql --host=postdbtest.postgres.database.azure.com --port=5432 --username=numan98khan@postdbtest --dbname=maindb",
+    "python": "cnx = psycopg2.connect(database='maindb', user='numan98khan@postdbtest', host='postdbtest.postgres.database.azure.com', password='NAUman!@#123', port='5432')",
+    "ruby": "cnx = PG::Connection.new(:host => 'postdbtest.postgres.database.azure.com', :user => 'numan98khan@postdbtest', :dbname => 'maindb', :port => '5432', :password => 'NAUman!@#123')",
+    "webapp": "Database=maindb; Data Source=postdbtest.postgres.database.azure.com; User Id=numan98khan@postdbtest; Password=NAUman!@#123"
+  },
+  "host": "postdbtest.postgres.database.azure.com",
+  "password": "NAUman!@#123",
+  "username": "numan98khan@postdbtest"
+}
